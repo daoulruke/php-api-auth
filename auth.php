@@ -138,9 +138,9 @@ function main($config)
 main([
     'default' => [
         'api.php' => [
-            'secret' => 'someVeryLongPassPhraseChangeMe',
+            'secret' => 'cT_pDMVMVtk60XESjyqXFjHPip2DGpdz54AFwdPYZ8GIIFbHYdQNPWQtIEBdMlPr',
             'login' => 'login.html',
-            'redirects' => 'http://localhost/vanilla.html',
+            'redirects' => 'https://localhost/ui.html',
             'validate' => function ($username, $password) {
                 return $username == 'admin' && $password == 'admin';
             },
